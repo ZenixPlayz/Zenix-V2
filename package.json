@@ -1,1 +1,21 @@
-
+{
+  "name": "zenix-v2",
+  "version": "1.0.0",
+  "description": "Zenix V2 - All-in-One Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "zenix-v2"
+  ],
+  "author": "ZenixPlayz",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.2.2"
+  }
+}
